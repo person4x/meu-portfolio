@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Meu Portfólio</h1>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre Mim</a></li>
+                <li><a href="#projetos">Mes Projetos</a></li>
+                <li><a href="#contato">Entre em Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="sobre">
+        <h2>Sobre Mim</h2>
+        <p>Olá! Sou um desenvolvedor novato, porem apaixonado por criar e agregar formas de facilidade e apoio a pessoas.</p>
+    </section>
+
+    <section id="projetos">
+        <h2>Projetos</h2>
+        <div class="projeto">
+            <h3>Projeto 1</h3>
+            <p>Descrição do projeto 1.</p>
+            <a href="https://github.com/seuusuario/projeto1" target="_blank">Ver no GitHub</a>
+        </div>
+        <div class="projeto">
+            <h3>Projeto 2</h3>
+            <p>Descrição do projeto 2.</p>
+            <a href="https://github.com/seuusuario/projeto2" target="_blank">Ver no GitHub</a>
+        </div>
+        <!-- Adicione mais projetos conforme necessário -->
+    </section>
+
+    <section id="contato">
+        <h2>Contato</h2>
+        <form id="contatoForm">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Willian França</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
